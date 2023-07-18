@@ -1,0 +1,188 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.navber {
+    height: 200px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 2.2rem 15rem;
+}
+
+.nav-container .nav-pic h1 {
+    font-size: 2.8rem;
+}
+
+.nav-pic {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-span {
+    color: #FF42A5;
+}
+
+.nav-icon {
+
+    height: 2.5rem;
+
+}
+
+.nav-about {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.nav-container .nav-about li {
+    list-style: none;
+}
+
+.nav-button {
+
+    height: 3.2rem;
+    font-size: 1.1rem;
+    border: none;
+    padding: 1rem 7.6rem 1.2rem 1.5rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10)
+}
+
+.banner {
+    display: flex;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.banner-text {
+    background-image: url('images/Group\ 14.png');
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 9rem 19rem 9rem 15rem;
+}
+
+#play {
+    color: #0B0223;
+    margin-bottom: .5rem;
+
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#goat {
+    color: #F948B2;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: .1rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner .banner-text li {
+    list-style: none;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-btn {
+    margin-top: 2rem;
+}
+
+.btn1 {
+    padding: 1rem 2rem;
+    color: #FFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn2 {
+    color: #FFF;
+    background: #4EC5F7;
+    border: none;
+    border-radius: 48px;
+    font-weight: 600;
+    padding: 1rem 2rem;
+}
+
+.banner-pic {
+    width: 50%;
+    padding-right: 15rem;
+
+}
+
+.pic-heading {
+    text-align: center;
+}
+
+.pic-heading h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pic-span {
+    color: #F948B2;
+
+    font-weight: 700;
+}
+
+.pic-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0rem 15rem;
+    margin-top: 4rem;
+}
+.play-section{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+   
+}
+.play-text{
+   text-align: right;
+   width: 50%;
+   margin-left: 26rem;
+   margin-right: 10rem;
+}
+.play-text h1 {
+   
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
+.play-span {
+    color: #F948B2;
+}
+.play-pic{
+    width: 50%;
+margin-right: 15rem;
+}
+#relative{
+  position: relative;
+  bottom: 18rem;
+  left: 52rem;
+}
+
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .nav-about {
+        flex-direction: column;
+    }
+}
