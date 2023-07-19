@@ -73,7 +73,7 @@
 }
 
 .banner-text {
-    background-image: url('images/Group\ 14.png');
+    background-image: url('./images/Group\ 14.png');
     background-repeat: no-repeat;
     width: 50%;
     padding: 9rem 19rem 9rem 15rem;
