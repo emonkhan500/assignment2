@@ -1,6 +1,6 @@
 * {
     font-family: 'Work Sans', sans-serif;
-
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.001) 0%, rgba(255, 66, 165, 0.01) 100%);
 }
 
 .navber {
@@ -54,6 +54,16 @@
     padding: 1rem 7.6rem 1.2rem 1.5rem;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10)
+}
+
+.nav-container .nav-about .icon-span {
+    color: red;
+    padding-left: .5rem;
+
+}
+
+.nav-container .nav-about #tiktok {
+    color: black;
 }
 
 .banner {
@@ -146,39 +156,123 @@
     padding: 0rem 15rem;
     margin-top: 4rem;
 }
-.play-section{
+
+.play-section {
     display: flex;
     align-items: center;
     margin-top: 3rem;
     gap: 3rem;
-   
+
 }
-.play-text{
-   text-align: right;
-   width: 50%;
-   margin-left: 26rem;
-   margin-right: 10rem;
+
+.play-text {
+    text-align: right;
+    width: 50%;
+    margin-left: 26rem;
+    margin-right: 10rem;
 }
+
 .play-text h1 {
-   
+
     font-size: 48px;
     font-weight: 700;
-    
+
 }
 
 .play-span {
     color: #F948B2;
 }
-.play-pic{
+
+.play-pic {
     width: 50%;
-margin-right: 15rem;
-}
-#relative{
-  position: relative;
-  bottom: 18rem;
-  left: 52rem;
+    margin-right: 15rem;
 }
 
+#relative {
+    position: relative;
+    bottom: 18rem;
+    left: 52rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    row-gap: 2rem;
+    padding-left: 15.5rem;
+    padding-right: 18.8rem;
+}
+
+.pic-img {
+    display: flex;
+    border-radius: 3.5rem;
+    gap: .5rem;
+}
+
+.pic-img p {
+    color: #0B0223;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer {
+    width: 100%;
+    background: #0B0223;
+    margin-top: 4rem;
+}
+
+.footer #footer-nav {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.footer #footer-span {
+    font-size: 3rem;
+    
+    font-weight: 700;
+}
+
+.footer p {
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.icon-sec, .p-sec, .pri-sec, .social-sec{
+    display: flex;
+    gap: 1rem;
+  
+}
+.social-sec .footer-icon{
+   color: #FFF;
+   font-size: 1rem;
+   
+}
+.icon-sec{
+    align-items: center;
+    padding: 3rem 52rem 1rem 50rem;
+
+}
+.p-sec{
+   padding: 0rem 33rem 0rem 33rem;
+   gap: 4rem;
+}
+.social-sec{
+    gap: 6rem;
+    padding: 0rem 50rem 0rem 50rem;
+    
+}
+.footer .social-sec p{
+    font-size: 2rem;
+}
+.pri-sec{
+   gap: 4rem;
+   padding: 0rem 35rem 0rem 35rem;
+}
+.copy-sec{
+  padding: 0rem 45rem 0rem 45rem;
+}
 @media screen and (max-width:576px) {
 
     .nav-container,
