@@ -151,8 +151,8 @@
 }
 
 .pic-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    gap: 5rem;
     padding: 0rem 15rem;
     margin-top: 4rem;
 }
@@ -216,9 +216,10 @@
 }
 
 .footer {
-    width: 100%;
+  
     background: #0B0223;
     margin-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .footer #footer-nav {
@@ -274,9 +275,41 @@
   padding: 0rem 45rem 0rem 45rem;
 }
 @media screen and (max-width:576px) {
-
-    .nav-container,
-    .nav-about {
+*{
+    background: 100%;
+  
+}
+    .banner{
         flex-direction: column;
     }
+    .pic-container{
+        flex-direction: column;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-about{
+        flex-direction: column;
+    }
+    .play-section {
+        flex-direction: column;
+    }
+    #relative{
+        position: relative;
+        right: 100rem;
+    }
+    .box-container{
+        grid-template-columns: repeat(3, 1fr);
+    } 
+    .footer{
+        width: 100%;
+        
+    }
+    
 }
+display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    row-gap: 2rem;
+    padding-left: 15.5rem;
+    padding-right: 18.8rem;
