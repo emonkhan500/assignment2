@@ -160,6 +160,7 @@
 .play-section {
     display: flex;
     align-items: center;
+
     margin-top: 3rem;
     gap: 3rem;
 
@@ -207,6 +208,9 @@
     border: .2rem solid lightcoral;
     border-radius: 2rem;
    
+}
+.pic-img p:hover{
+    color: #FF42A5;
 }
 .pic-img {
     display: flex;
@@ -282,13 +286,15 @@
 @media screen and (max-width:576px) {
 *{
     background: 100%;
-  
-}
+} 
+
     .banner{
         flex-direction: column;
     }
     .pic-container{
         flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
     }
     .nav-container{
         flex-direction: column;
@@ -298,16 +304,12 @@
     }
     .play-section {
         flex-direction: column;
+        width: 100%;
     }
-    #relative{
-        position: relative;
-        right: 100rem;
-    }
+   
     .box-container{
         grid-template-columns: repeat(3, 1fr);
     } 
-    .footer{
-        width: 100vw;
-    }
+   
     
 }
