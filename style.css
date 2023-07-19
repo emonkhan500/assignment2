@@ -196,12 +196,14 @@
 }
 
 .box-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+   display: flex;
+   justify-content: space-evenly;
+   gap: 3rem;
+   flex-wrap: wrap;
     align-items: center;
-    row-gap: 2rem;
-    padding-left: 15.5rem;
-    padding-right: 18.8rem;
+ 
+    padding-left: 12rem;
+    padding-right: 15rem;
 }
 .pic-img:hover{
     color: #F948B2;
@@ -307,9 +309,7 @@
         width: 100%;
     }
    
-    .box-container{
-        grid-template-columns: repeat(3, 1fr);
-    } 
+    
    
     
 }
