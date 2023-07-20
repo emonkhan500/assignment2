@@ -205,18 +205,12 @@
     padding-left: 12rem;
     padding-right: 15rem;
 }
-.pic-img:hover{
-    color: #F948B2;
-    border: .2rem solid lightcoral;
-    border-radius: 2rem;
-   
-}
-.pic-img p:hover{
-    color: #FF42A5;
-}
+
 .pic-img {
     display: flex;
+    border: .2rem solid transparent;
     border-radius: 3.5rem;
+    padding: .3rem;
     gap: .5rem;
 }
 
@@ -225,7 +219,16 @@
     font-size: 1.2rem;
     font-weight: 600;
 }
-
+.pic-img:hover p{
+    color: #FF42A5;
+    
+}
+.pic-img:hover{
+    color: #F948B2;
+    border: .2rem solid lightcoral;
+    border-radius: 2rem;
+   
+}
 .footer {
   
     background: #0B0223;
